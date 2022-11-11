@@ -15,8 +15,10 @@ Backend- Node.js
 
 The web app was hosted on GCP (Google App Engine). 
 
-**The data displayed in the web application is using Finnhub API. Reference: https://finnhub.io/docs/api/introduction**
-(All APIs calls were made through Node.js server)
+* The data displayed in the web application is using Finnhub API. Reference: https://finnhub.io/docs/api/introduction
+* All APIs calls were made through Node.js server
+* All charts dsipalyed are using Highcharts for Angular (highcharts-angular). Reference: https://www.npmjs.com/package/highcharts-angular
+ 
 
 ## Images for the application:
 
@@ -49,9 +51,13 @@ Charts were made using Highharts library for Angular.
 
 ### Menu Items:
 ### Watchlist Menu:
+This menu displays all the stocks that are added to the watchlist by the user. This watchlist is maintained in local storage of the application.
+
 ![image](https://user-images.githubusercontent.com/96368056/201235921-c913be36-b577-460c-87f2-1b2cea06a460.png)
 
 ### Portfolio Menu:
+This menu displays all the stocks that have been bought by the user (i.e., the current portfolio of the user). This portfolio is maintained in the local storage of the application.
+
 ![image](https://user-images.githubusercontent.com/96368056/201236147-edcfbbe1-d2d5-4e65-a486-9a6537897330.png)
 
 Buying and selling stocks from portfolio:
