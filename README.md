@@ -8,10 +8,17 @@
 * Get hands-on experience of Cloud services hosting NodeJS/Express
 * Learn to use popular APIs such as finnhub API and Highcharts API
 
-NOTE: The source code is not present in the public repo as this web application was completed as part of CSCI 571 Web Technologies course during my masters at USC. The course policies restricts students from keeping code in public repositories. I would be able to provide the source code if requested.  
+**NOTE: The source code is not present in the public repo as this web application was completed as part of CSCI 571 Web Technologies course during my masters at USC. The course policies restricts students from keeping code in public repositories. I would be able to provide the source code if requested.**  
+### Technologies:
+Frontend- Angular, HTML5, Bootstrap
+Backend- Node.js
 
+The web app was hosted on GCP (Google App Engine). 
 
-Images for the application:
+**The data displayed in the web application is using Finnhub API. Reference: https://finnhub.io/docs/api/introduction**
+(All APIs calls were made through Node.js server)
+
+## Images for the application:
 
 ### Initial Search Page
 ![image](https://user-images.githubusercontent.com/96368056/201234756-58279369-84dd-4646-8418-fd3fef30281c.png)
@@ -27,17 +34,17 @@ Deatils of searched stock (Market is Closed)
 
 #### Sell Button on home search page appears dynamically when the prtfolio has the purchased stock.
 
-Top News Tab:
+### Top News Tab:
 ![image](https://user-images.githubusercontent.com/96368056/201235533-7e11184e-7759-4aeb-98ed-531ce4c1783e.png)
 
-Deatiled Modal overview for each news headline
+#### Deatiled Modal overview for each news headline
 ![image](https://user-images.githubusercontent.com/96368056/201235058-4bbcc164-42ae-4ef3-b47e-0dc83ca3b471.png)
 
-Charts tab: 
+### Charts tab: 
 Charts were made using Highharts library for Angular.
 ![image](https://user-images.githubusercontent.com/96368056/201235692-c1a9f000-42eb-49bc-92a0-e91dc40cc618.png)
 
-Insights tab:
+### Insights tab:
 ![image](https://user-images.githubusercontent.com/96368056/201235837-5a00edf5-27b1-4301-9170-dacfb53a4fcf.png)
 
 ### Menu Items:
@@ -57,13 +64,6 @@ Buying and selling stocks from portfolio:
 <img width="542" alt="image" src="https://user-images.githubusercontent.com/96368056/201237209-f37f7f77-fbc7-4642-80ea-b5a001a86716.png">
 
 <img width="542" alt="image" src="https://user-images.githubusercontent.com/96368056/201237244-9077578d-a73f-4ada-856e-c7065e726641.png">
-
-
-
-
-
-
-
 
 
 
